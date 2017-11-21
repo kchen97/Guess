@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>372639520203-4b7emaktiutjeamv0k8vsb3qaiiobcuh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.372639520203-4b7emaktiutjeamv0k8vsb3qaiiobcuh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCc7cSGj4g_S8ZgkoYtTTRVgHwH9StNZos</string>
+	<key>GCM_SENDER_ID</key>
+	<string>372639520203</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.KormanChen.Guess</string>
+	<key>PROJECT_ID</key>
+	<string>guess-14fc3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>guess-14fc3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:372639520203:ios:1f928ea4a5379ab1</string>
+	<key>DATABASE_URL</key>
+	<string>https://guess-14fc3.firebaseio.com</string>
+</dict>
+</plist>
