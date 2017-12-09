@@ -291,11 +291,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9HJ-4X-fuZ">
-                                <rect key="frame" x="351" y="64" width="24" height="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9HJ-4X-fuZ">
+                                <rect key="frame" x="275" y="64" width="100" height="48"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="24" id="ktk-e4-vVz"/>
-                                    <constraint firstAttribute="height" constant="48" id="o0o-2f-yDT"/>
+                                    <constraint firstAttribute="height" constant="48" id="Gyz-bw-ESO"/>
+                                    <constraint firstAttribute="width" constant="100" id="jx9-ay-LDo"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
@@ -305,25 +305,31 @@
                         <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="36A-kf-G2P" firstAttribute="centerX" secondItem="wE6-Xf-KPK" secondAttribute="centerX" id="7zw-sv-EYN"/>
-                            <constraint firstItem="9HJ-4X-fuZ" firstAttribute="trailing" secondItem="KfU-23-AUg" secondAttribute="trailing" id="CQo-od-DZa"/>
                             <constraint firstItem="DaW-Jy-hlb" firstAttribute="top" secondItem="36A-kf-G2P" secondAttribute="bottom" id="FEf-Ta-z1X"/>
                             <constraint firstItem="iNY-eM-jpt" firstAttribute="leading" secondItem="KfU-23-AUg" secondAttribute="leading" id="FUq-ha-bQW"/>
                             <constraint firstItem="KfU-23-AUg" firstAttribute="trailing" secondItem="iNY-eM-jpt" secondAttribute="trailing" id="G0Q-px-Mfx"/>
                             <constraint firstItem="Hdy-10-p8r" firstAttribute="centerX" secondItem="wE6-Xf-KPK" secondAttribute="centerX" id="Oz6-KK-9Id"/>
                             <constraint firstItem="DaW-Jy-hlb" firstAttribute="centerX" secondItem="wE6-Xf-KPK" secondAttribute="centerX" id="ab8-8F-ccd"/>
                             <constraint firstItem="nIs-Gg-fhl" firstAttribute="centerX" secondItem="wE6-Xf-KPK" secondAttribute="centerX" id="bih-yo-bO4"/>
+                            <constraint firstItem="9HJ-4X-fuZ" firstAttribute="top" secondItem="KfU-23-AUg" secondAttribute="top" id="ch4-34-HXD"/>
                             <constraint firstItem="Hdy-10-p8r" firstAttribute="top" secondItem="nIs-Gg-fhl" secondAttribute="bottom" id="g1k-ZS-bzP"/>
                             <constraint firstItem="Hdy-10-p8r" firstAttribute="top" secondItem="KfU-23-AUg" secondAttribute="top" constant="165" id="jUF-vi-Vf1"/>
+                            <constraint firstItem="9HJ-4X-fuZ" firstAttribute="trailing" secondItem="KfU-23-AUg" secondAttribute="trailing" id="pnT-XH-mVh"/>
                             <constraint firstItem="KfU-23-AUg" firstAttribute="bottom" secondItem="iNY-eM-jpt" secondAttribute="bottom" id="qAk-c5-ezH"/>
                             <constraint firstItem="DaW-Jy-hlb" firstAttribute="top" secondItem="Hdy-10-p8r" secondAttribute="bottom" constant="110" id="vCb-R9-sAf"/>
-                            <constraint firstItem="9HJ-4X-fuZ" firstAttribute="top" secondItem="KfU-23-AUg" secondAttribute="top" id="zsu-4F-hUt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KfU-23-AUg"/>
                     </view>
-                    <navigationItem key="navigationItem" id="qVw-Ry-Ldx"/>
+                    <navigationItem key="navigationItem" id="qVw-Ry-Ldx">
+                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="8Q3-JQ-XCQ">
+                            <connections>
+                                <action selector="logOutPressed:" destination="W23-Eu-Ew5" id="0nL-Ja-cEq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
-                        <outlet property="numMatchesLabel" destination="9HJ-4X-fuZ" id="Bup-Hy-ESU"/>
                         <outlet property="rollButton" destination="iNY-eM-jpt" id="7g1-J2-aXs"/>
+                        <outlet property="userCashLabel" destination="9HJ-4X-fuZ" id="tPQ-Db-yK0"/>
                         <outletCollection property="labelCollection" destination="e94-Rm-ETN" collectionClass="NSMutableArray" id="DZ6-Zo-P8W"/>
                         <outletCollection property="labelCollection" destination="gA2-Ch-dsV" collectionClass="NSMutableArray" id="Ycc-v7-fUc"/>
                         <outletCollection property="labelCollection" destination="mvP-Jl-aAu" collectionClass="NSMutableArray" id="1ix-1K-yz9"/>
